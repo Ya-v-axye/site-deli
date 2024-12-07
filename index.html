@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Мото-Дейли</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link
+			rel="shortcut icon"
+			href="assets/media/icons/helmeеt.svg"
+			type="image/x-icon"
+		/>
+		<!-- шрифты -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<!-- scroll top -->
+         <a href="#" class="scrollToTopBtn">↑</a>
+		<!-- Шапка сайта -->
+		<header>
+			<div class="header-block container">
+				<div class="logo-container">
+					<img src="assets/media/icons//helmeеt.svg" alt="" class="logo" />
+					<p class="tagline">Мото-Дейли</p>
+				</div>
+				<div class="header-contacts" id="rr">
+					<div class="address">Адрес: г. Москва, улица Вавилова, 6</div>
+					<a href="tel:+79991234567" class="phone">+7 999-123-45-67</a>
+					<button class="btn order-btn">Перейти в каталог</button>
+				</div>
+			</div>
+		</header>
+
+		<!-- баннер -->
+		<section class="about">
+			<div class="about-bg"></div>
+			<div class="container about-content">
+				<h1 class="about-title">
+					Мотоциклы для приключений — арендуй и катайся!
+				</h1>
+				<p class="about-text">
+					Мы предлагаем только проверенные и обслуженные мотоциклы для разных
+					задач, чтобы вы точно выбрали именно свой.
+				</p>
+				<button class="btn catalog-btn">Забронировать мотоцикл</button>
+			</div>
+		</section>
+
+		<!-- каталог -->
+		<section class="motorcycle-services" id="arend">
+			<h2 class="section-title">Наши мотоциклы</h2>
+			<div class="catalog container">
+				<!-- Карточка 1 -->
+				<div class="service-card">
+					<img src="assets/media/images/ya-09.jpg" alt="Yamaha MT-09" />
+					<div class="card-details">
+						<h3>Yamaha MT-09</h3>
+						<ul>
+							<li>Объем двигателя: 847cc</li>
+							<li>Мощность: 115 л.с.</li>
+							<li>Тип: Naked</li>
+							<li>Цена за 2 часа: 1500 ₽</li>
+							<li class="disc">По подписке: 10% дешевле</li>
+						</ul>
+                        <div class="under"></div>
+						<button class="book-btn">Забронировать</button>
+					</div>
+				</div>
+
+				<!-- Карточка 2 -->
+				<div class="service-card">
+					<img src="assets/media/images/23.png" alt="Kawasaki Ninja 650" />
+					<div class="card-details">
+						<h3>Kawasaki Ninja 650</h3>
+						<ul>
+							<li>Объем двигателя: 649cc</li>
+							<li>Мощность: 68 л.с.</li>
+							<li>Тип: Спортивный</li>
+							<li>Цена за 2 часа: 1300 ₽</li>
+							<li class="disc">По подписке: 12% дешевле</li>
+						</ul>
+                        <div class="under"></div>
+						<button class="book-btn">Забронировать</button>
+					</div>
+				</div>
+
+				<!-- Карточка 3 -->
+				<div class="service-card">
+					<img src="assets/media/images/1000.jpeg" alt="BMW S1000RR" />
+					<div class="card-details">
+						<h3>BMW S1000RR</h3>
+						<ul>
+							<li>Объем двигателя: 999cc</li>
+							<li>Мощность: 199 л.с.</li>
+							<li>Тип: Спортивный</li>
+							<li>Цена за 2 часа: 2500 ₽</li>
+							<li class="disc">По подписке: 15% дешевле</li>
+						</ul>
+                        <div class="under"></div>
+						<button class="book-btn">Забронировать</button>
+					</div>
+				</div>
+
+				<!-- Карточка 4 -->
+				<div class="service-card">
+					<img src="assets/media/images/450.jpeg" alt="Honda CRF450R" />
+					<div class="card-details">
+						<h3>Honda CRF450R</h3>
+						<ul>
+							<li>Объем двигателя: 449cc</li>
+							<li>Мощность: 56 л.с.</li>
+							<li>Тип: Кроссовый</li>
+							<li>Цена за 2 часа: 1700 ₽</li>
+							<li class="disc">По подписке: 8% дешевле</li>
+						</ul>
+                        <div class="under"></div>
+						<button class="book-btn">Забронировать</button>
+					</div>
+				</div>
+
+				<!-- Карточка 5 -->
+				<div class="service-card">
+					<img
+						src="assets/media/images/har.jpeg"
+						alt="Harley-Davidson Iron 883"
+					/>
+					<div class="card-details">
+						<h3>Harley-Davidson Iron 883</h3>
+						<ul>
+							<li>Объем двигателя: 883cc</li>
+							<li>Мощность: 50 л.с.</li>
+							<li>Тип: Круизер</li>
+							<li>Цена за 2 часа: 1800 ₽</li>
+							<li class="disc">По подписке: 10% дешевле</li>
+						</ul>
+                        <div class="under"></div>
+						<button class="book-btn">Забронировать</button>
+					</div>
+				</div>
+
+				<!-- Карточка 6 -->
+				<div class="service-card">
+					<img src="assets/media/images/gsx-r.jpg" alt="Suzuki GSX-R1000" />
+					<div class="card-details">
+						<h3>Suzuki GSX-R1000</h3>
+						<ul>
+							<li>Объем двигателя: 999cc</li>
+							<li>Мощность: 200 л.с.</li>
+							<li>Тип: Спортивный</li>
+							<li>Цена за 2 часа: 2200 ₽</li>
+							<li class="disc">По подписке: 14% дешевле</li>
+						</ul>
+                        <div class="under"></div>
+						<button class="book-btn">Забронировать</button>
+					</div>
+				</div>
+
+				<!-- Карточка 7 -->
+				<div class="service-card">
+					<img src="assets/media/images/ducaki.jpg" alt="Ducati Panigale V4" />
+					<div class="card-details">
+						<h3>Ducati Panigale V4</h3>
+						<ul>
+							<li>Объем двигателя: 1103cc</li>
+							<li>Мощность: 214 л.с.</li>
+							<li>Тип: Спортивный</li>
+							<li>Цена за 2 часа: 3000 ₽</li>
+							<li class="disc">По подписке: 10% дешевле</li>
+						</ul>
+                        <div class="under"></div>
+						<button class="book-btn">Забронировать</button>
+					</div>
+				</div>
+
+				<!-- Карточка 8 -->
+				<div class="service-card">
+					<img
+						src="assets/media/images/ktm-duke.jpg"
+						alt="KTM 1290 Super Duke R"
+					/>
+					<div class="card-details">
+						<h3>KTM 1290 Super Duke R</h3>
+						<ul>
+							<li>Объем двигателя: 1301cc</li>
+							<li>Мощность: 180 л.с.</li>
+							<li>Тип: Naked</li>
+							<li>Цена за 2 часа: 2300 ₽</li>
+							<li class="disc">По подписке: 13% дешевле</li>
+						</ul>
+                        <div class="under"></div>
+						<button class="book-btn">Забронировать</button>
+					</div>
+				</div>
+
+				<!-- Карточка 9 -->
+				<div class="service-card">
+					<img
+						src="assets/media/images/Triumph.jpg"
+						alt="Triumph Bonneville T120"
+					/>
+					<div class="card-details">
+						<h3>Triumph Bonneville T120</h3>
+						<ul>
+							<li>Объем двигателя: 1200cc</li>
+							<li>Мощность: 80 л.с.</li>
+							<li>Тип: Классический</li>
+							<li>Цена за 2 часа: 2000 ₽</li>
+							<li class="disc">По подписке: 12% дешевле</li>
+						</ul>
+                        <div class="under"></div>
+						<button class="book-btn">Забронировать</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- о компании -->
+		<section class="monitor-info" id="comp">
+			<div class="monitor-container container">
+				<div class="monitor-text">
+					<h2 class="monitor-title">О компании</h2>
+					<p>
+						Добро пожаловать в <strong>Мото-Дейли</strong> — ваш надежный
+						партнер в аренде мотоциклов. Мы предоставляем широкий выбор
+						современных мотоциклов для аренды на любые случаи жизни — от
+						динамичных поездок по городу до захватывающих путешествий по сложным
+						маршрутам. Наша цель — дать вам возможность ощутить свободу на
+						дороге, предоставив качественную технику и высокий уровень сервиса.
+					</p>
+				</div>
+				<div class="monitor-image">
+					<img src="assets/media/images/o-company.jpg" alt="О компании" />
+				</div>
+			</div>
+		</section>
+
+    <!-- Почему выбирают нас -->
+<section class="features">
+    <h2 class="features-title">Почему выбирают нас</h2>
+    <div class="features-container">
+        <div class="feature-item">
+            <img src="assets/media/icons/speed.svg" alt="Иконка скорости">
+            <div>
+                <h3>Быстрое оформление</h3>
+                <p>Все процессы занимают минимум вашего времени.</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <img src="assets/media/icons/trust.svg" alt="Иконка доверия">
+            <div>
+                <h3>Надежность</h3>
+                <p>Прозрачные условия и честное сотрудничество.</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <img src="assets/media/icons/choice.svg" alt="Иконка выбора">
+            <div>
+                <h3>Большой выбор</h3>
+                <p>Широкий ассортимент услуг под любые запросы.</p>
+            </div>
+        </div>
+    </div>
+    <button class="reserve-button">Забронировать мотоцикл</button>
+</section>
+
+<!-- Блок Подписки -->
+<section class="subscriptions" id="sub">
+    <h2 class="subscriptions-title">Оформите подписку и сэкономьте</h2>
+    <p class="subscriptions-subtitle">Цена подписки ниже, чем при одноразовой аренде. Экономьте на каждом километре!</p>
+    <div class="subscriptions-container">
+        <div class="subscription-card">
+            <h3>Рабочая неделя</h3>
+            <p>Идеально для поездок на работу. Подписка на 5 дней сэкономит до 15%!</p>
+            <button class="subscribe-button">Оформить подписку</button>
+        </div>
+        <div class="subscription-card">
+            <h3>Выходные</h3>
+            <p>Подписка на 2 дня: идеальный вариант для коротких поездок. Экономьте до 10%!</p>
+            <button class="subscribe-button">Оформить подписку</button>
+        </div>
+        <div class="subscription-card">
+            <h3>Долгосрочная аренда</h3>
+            <p>На месяц и более. Подписка включает бесплатное техническое обслуживание и скидку до 30%!</p>
+            <button class="subscribe-button">Оформить подписку</button>
+        </div>
+        <div class="subscription-card">
+            <h3>Отпуск</h3>
+            <p>Для путешествий и приключений. Подписка на 10 дней сэкономит до 20%!</p>
+            <button class="subscribe-button">Оформить подписку</button>
+        </div>
+        <div class="subscription-card">
+            <h3>Гибкая подписка</h3>
+            <p>Оплачивайте только те дни, которые вам нужны. Сэкономьте до 25%!</p>
+            <button class="subscribe-button">Оформить подписку</button>
+        </div>
+    </div>
+</section>
+
+<!-- Блок Новостей -->
+<section class="news">
+    <h2 class="news-title">Новости компании</h2>
+    <p class="news-subtitle">Мы всегда стремимся к лучшему, чтобы радовать вас новыми возможностями и услугами!</p>
+    <div class="news-sect">
+    <div class="news-container">
+        <div class="news-item active">
+            <div class="new-img">
+                <img src="assets/media/images/1000.jpeg" alt="BMW S1000RR">
+            </div>
+            <div class="new-txt">
+                <h3>Привезли по вашим просьбам BMW S1000RR</h3>
+                <p>Теперь культовый спортбайк доступен для аренды! Успейте прокатиться на одной из лучших моделей в своем классе.</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <div class="new-img">
+                <img src="assets/media/images/news2.jpg" alt="Обновление парка">
+            </div>
+            <div class="new-txt">
+                <h3>Обновили парк на 30%</h3>
+            <p>Мы добавили новые модели от Yamaha, Honda и Ducati. Больше выбора — больше эмоций!</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <div class="new-img">
+                <img src="assets/media/images/news3.jpg" alt="Скидки на подписки">
+            </div>
+            <div class="new-txt">
+                <h3>Скидки на подписки до конца месяца</h3>
+            <p>Оформите подписку на мотоциклы и получите скидку до 20%! Спешите воспользоваться выгодным предложением.</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <div class="new-img">
+                <img src="assets/media/images/news4.jpg" alt="Новое оборудование">
+            </div>
+            <div class="new-txt">
+                <h3>Новое защитное оборудование</h3>
+            <p>Мы привезли новую линейку экипировки. Берите в аренду шлемы, куртки и перчатки премиум-качества.</p>
+            </div>
+        </div>
+
+        <div class="news-item">
+            <div class="new-img">
+                <img src="assets/media/images/news5.png" alt="Режим работы">
+            </div>
+            <div class="new-txt">
+                <h3>Работаем 24/7 для вашего удобства</h3>
+            <p>Теперь аренда мотоциклов доступна круглосуточно. Забронируйте технику в любое время!</p>
+            </div>
+        </div>
+    </div>
+     <div class="news-sizing">
+        <div class="new-sz-img"></div>
+        <div class="new-sz-txt">
+            <h3>Привезли по вашим просьбам BMW S1000RR</h3>
+            <p>Теперь культовый спортбайк доступен для аренды! Успейте прокатиться на одной из лучших моделей в своем классе.</p>
+        </div>
+        <div class="new-sz-like-no">
+            <p>лайк</p>
+            <p>не лайк</p>
+        </div>
+     </div>
+    </div>
+</section>
+
+<!-- акции -->
+<section class="promotions" id="ekip">
+    <h2 class="promotions-title">Акции на аренду экипировки</h2>
+    <div class="promotions-container">
+        <!-- Первая акция -->
+        <div class="promotion-item">
+            <img src="assets/media/images/gear-promotion1.jpg" alt="Акция 1">
+            <div class="promotion-details">
+                <h3>Скидка на аренду шлема</h3>
+                <p>Получите 20% скидку на аренду шлема при аренде мотоцикла на 7 дней.</p>
+                <button class="promotion-button">Оформить акцию</button>
+            </div>
+        </div>
+        <!-- Вторая акция -->
+        <div class="promotion-item">
+            <img src="assets/media/images/gear-promotion2.jpg" alt="Акция 2">
+            <div class="promotion-details">
+                <h3>Акция на экипировку для новичков</h3>
+                <p>10% скидка на полную экипировку при аренде мотоцикла на 5 дней.</p>
+                <button class="promotion-button">Оформить акцию</button>
+            </div>
+        </div>
+        <!-- Третья акция -->
+        <div class="promotion-item">
+            <img src="assets/media/images/gear-promotion3.jpg" alt="Акция 3">
+            <div class="promotion-details">
+                <h3>Бесплатная защита коленей</h3>
+                <p>Арендуйте комплект экипировки и получите защиту коленей бесплатно на 3 дня!</p>
+                <button class="promotion-button">Оформить акцию</button>
+            </div>
+        </div>
+        <!-- Четвертая акция -->
+        <div class="promotion-item">
+            <img src="assets/media/images/gear-promotion4.jpg" alt="Акция 4">
+            <div class="promotion-details">
+                <h3>Скидка на аренду куртки</h3>
+                <p>15% скидка на аренду защитной куртки при аренде мотоцикла на 10 дней.</p>
+                <button class="promotion-button">Оформить акцию</button>
+            </div>
+        </div>
+        <!-- Пятая акция -->
+        <div class="promotion-item">
+            <img src="assets/media/images/gear-promotion5.jpg" alt="Акция 5">
+            <div class="promotion-details">
+                <h3>Комплект экипировки за полцены</h3>
+                <p>Арендуйте комплект экипировки на 14 дней и получите скидку 50% на второй комплект.</p>
+                <button class="promotion-button">Оформить акцию</button>
+            </div>
+        </div>
+        <!-- Шестая акция -->
+        <div class="promotion-item">
+            <img src="assets/media/images/gear-promotion6.jpg" alt="Акция 6">
+            <div class="promotion-details">
+                <h3>Акция для команд</h3>
+                <p>Скидка 30% на аренду экипировки для групп и команд от 5 человек.</p>
+                <button class="promotion-button">Оформить акцию</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Сотрудники -->
+ <section class="team">
+    <h2 class="team-title">Наша команда</h2>
+    <div class="team-list">
+        <!-- Сотрудник 1 -->
+        <div class="team-member">
+            <img src="assets/media/images/employee1.jpg" alt="Иван Иванов">
+            <div class="team-details">
+                <h3>Иван Иванов</h3>
+                <p class="position">Менеджер по аренде</p>
+            </div>
+        </div>
+        <!-- Сотрудник 2 -->
+        <div class="team-member">
+            <img src="assets/media/images/employee2.jpg" alt="Мария Петрова">
+            <div class="team-details">
+                <h3>Мария Петрова</h3>
+                <p class="position">Координатор по бронированию</p>
+            </div>
+        </div>
+        <!-- Сотрудник 3 -->
+        <div class="team-member">
+            <img src="assets/media/images/employee3.jpeg" alt="Алексей Смирнов">
+            <div class="team-details">
+                <h3>Алексей Смирнов</h3>
+                <p class="position">Механик</p>
+            </div>
+        </div>
+        <!-- Сотрудник 4 -->
+        <div class="team-member">
+            <img src="assets/media/images/employee4.jpg" alt="Ольга Васильева">
+            <div class="team-details">
+                <h3>Ольга Васильева</h3>
+                <p class="position">Маркетолог</p>
+            </div>
+        </div>
+        <!-- Сотрудник 5 -->
+        <div class="team-member">
+            <img src="assets/media/images/employee5.jpg" alt="Дмитрий Козлов">
+            <div class="team-details">
+                <h3>Дмитрий Козлов</h3>
+                <p class="position">Консультант по экипировке</p>
+            </div>
+        </div>
+        <!-- Сотрудник 6 -->
+        <div class="team-member">
+            <img src="assets/media/images/employee6.jpg" alt="Екатерина Лазарева">
+            <div class="team-details">
+                <h3>Екатерина Лазарева</h3>
+                <p class="position">Специалист по клиентскому обслуживанию</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- отзывы -->
+		<section class="reviews" id="otz">
+			<div class="container">
+				<h2 class="section-title">Отзывы клиентов</h2>
+				<div class="review-slider">
+					<div class="review">
+						<img
+							src="assets/media/images/genna.jpg"
+							alt="Отзыв 1"
+							class="avatar"
+						/>
+						<p class="review-text">Отличный сервис, арендовал байк на неделю — все прошло идеально!</p>
+						<div class="stars">★★★★★</div>
+						<p class="reviewer-name">Геннадий Елин</p>
+					</div>
+					<div class="review">
+						<img
+							src="assets/media/images/mari.jpeg"
+							alt="Отзыв 2"
+							class="avatar"
+						/>
+						<p class="review-text">
+							Очень довольна! Оформила подписку и теперь езжу на работу с удовольствием</p>
+						<div class="stars">★★★★★</div>
+						<p class="reviewer-name">Мария Шаранова</p>
+					</div>
+					<div class="review">
+						<img
+							src="assets/media/images/maks.jpeg"
+							alt="Отзыв 3"
+							class="avatar"
+						/>
+						<p class="review-text">
+							Отличная компания, всегда найдут мотоцикл для каждого!
+						</p>
+						<div class="stars">★★★★★</div>
+						<p class="reviewer-name">Максим Орлов</p>
+					</div>
+				</div>
+			</div>
+			<div class="dots">
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+			</div>
+		</section>
+
+<!-- вопрос/ответ -->
+ <section class="faq">
+    <h2>Часто задаваемые вопросы</h2>
+    <div class="faq-container">
+        <div class="faq-item">
+            <input type="checkbox" id="question1">
+            <label for="question1" class="faq-question" id='toggle-block'><span class="plus" id="plus">+</span>Какие документы нужны для аренды?</label>
+            <div class="faq-answer">
+                <p>Для аренды необходим паспорт и водительское удостоверение. Также могут понадобиться дополнительные документы в зависимости от типа аренды.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <input type="checkbox" id="question2">
+            <label for="question2" class="faq-question"id='toggle-block'><span class="plus" id="plus">+</span>Можно ли арендовать мотоцикл на день?</label>
+            <div class="faq-answer">
+                <p>Да, мы предоставляем возможность аренды мотоциклов на любой срок — от одного дня до одного месяца.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <input type="checkbox" id="question3">
+            <label for="question3" class="faq-question"id='toggle-block'><span class="plus" id="plus">+</span>Как долго занимает процесс оформления аренды?</label>
+            <div class="faq-answer">
+                <p>Процесс оформления аренды занимает не более 15-20 минут, после чего вы сможете забрать свой мотоцикл.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <input type="checkbox" id="question4">
+            <label for="question4" class="faq-question" id='toggle-block'><span class="plus" id="plus">+</span>Предоставляете ли вы страховку на аренду?</label>
+            <div class="faq-answer">
+                <p>Да, мы предлагаем страховку на аренду, которая покрывает основные риски. Дополнительные условия можно уточнить на месте.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <input type="checkbox" id="question5">
+            <label for="question5" class="faq-question"id='toggle-block'><span class="plus" id="plus">+</span>Есть ли скидки для постоянных клиентов?</label>
+            <div class="faq-answer">
+                <p>Да, для постоянных клиентов предусмотрены скидки и бонусы. Обо всех предложениях можно узнать при оформлении аренды.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <input type="checkbox" id="question6">
+            <label for="question6" class="faq-question"id='toggle-block'><span class="plus" id="plus">+</span>Можно ли забронировать мотоцикл заранее?</label>
+            <div class="faq-answer">
+                <p>Да, вы можете забронировать мотоцикл заранее через наш сайт или по телефону. Это гарантирует наличие нужной модели в аренду.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Партнеры -->
+<section class="partners-section">
+    <div class="section-title">
+        <div>Наши Партнеры</div>
+    </div>
+    <div class="partners-carousel">
+        <div class="partners-track">
+            <!-- Повторяем логотипы для бесшовного движения -->
+            <img src="assets/media/images/partner1.png" alt="Партнер 1">
+            <img src="assets/media/images/partner2.png" alt="Партнер 2">
+            <img src="assets/media/images/partner3.jpg" alt="Партнер 3">
+            <img src="assets/media/images/partner4.png" alt="Партнер 4">
+            <img src="assets/media/images/partner5.png" alt="Партнер 5">
+            <img src="assets/media/images/partner6.jpg" alt="Партнер 6">
+            <img src="assets/media/images/partner7.png" alt="Партнер 7">
+            <img src="assets/media/images/partner8.png" alt="Партнер 8">
+            <img src="assets/media/images/partner9.jpg" alt="Партнер 9">
+            <img src="assets/media/images/partner10.jpg" alt="Партнер 10">
+            
+            <!-- Дублируем логотипы -->
+            <img src="assets/media/images/partner1.png" alt="Партнер 1">
+            <img src="assets/media/images/partner2.png" alt="Партнер 2">
+            <img src="assets/media/images/partner3.jpg" alt="Партнер 3">
+            <img src="assets/media/images/partner4.png" alt="Партнер 4">
+            <img src="assets/media/images/partner5.png" alt="Партнер 5">
+            <img src="assets/media/images/partner6.jpg" alt="Партнер 6">
+            <img src="assets/media/images/partner7.png" alt="Партнер 7">
+            <img src="assets/media/images/partner8.png" alt="Партнер 8">
+            <img src="assets/media/images/partner9.jpg" alt="Партнер 9">
+            <img src="assets/media/images/partner10.jpg" alt="Партнер 10">
+        </div>
+    </div>
+</section>
+
+
+<!-- контакты -->
+ <section class="contact-section" id="cont">
+    <div class="section-title">
+        <h2>Контакты</h2>
+    </div>
+    <div class="contact-info">
+        <div class="contact-item">
+            <div class="icon">
+                <img src="assets/media/icons/location.svg" alt="Адрес">
+            </div>
+            <div class="text">
+                <div class="contact-title">Адрес</div>
+                <p>г. Москва, улица Вавилова, 6</p>
+            </div>
+        </div>
+        <div class="contact-item">
+            <div class="icon">
+                <img src="assets/media/icons/phone.svg" alt="Телефон">
+            </div>
+            <div class="text">
+                <div class="contact-title">Телефон</div>
+                <a href="tel:+79991234567" class="phone">+7 999-123-45-67</a>
+            </div>
+        </div>
+        <div class="contact-item">
+            <div class="icon">
+                <img src="assets/media/icons/24-hours.svg" alt="График работы">
+            </div>
+            <div class="text">
+                <div class="contact-title">График работы</div>
+                <p>24/7</p>
+            </div>
+        </div>
+        <div class="contact-item">
+            <div class="icon">
+                <img src="assets/media/icons/post.svg" alt="Почта">
+            </div>
+            <div class="text">
+                <div class="contact-title">Почта</div>
+                <a href="mailto:info@ecohome.ru" class="Email">info@Moto-Dayli.ru</a>
+            </div>
+        </div>
+    </div>
+    <div class="google-map">
+        <div class="map-title">Найдите нас на карте:</div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.911602079178!2d37.585533576780286!3d55.707908295448256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b6491b22d97%3A0xf406577917944ec6!2z0YPQuy4g0JLQsNCy0LjQu9C-0LLQsCwgNiwg0JzQvtGB0LrQstCwLCAxMTkzMzQ!5e0!3m2!1sru!2sru!4v1733543410656!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d35866.70882730537!2d49.16175014165038!3d55.816341342807355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1733543310877!5m2!1sru!2sru" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        <!-- <iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1704.6605202518078!2d37.58613146242546!3d55.70788341916868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b6491b22d97%3A0xf406577917944ec6!2sUlitsa%20Vavilova%2C%206%2C%20Moskva%2C%20Rusland%2C%20119334!5e0!3m2!1snl!2snl!4v1733025154132!5m2!1snl!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    </div>
+</section>
+
+<!-- подвал -->
+ <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="assets/media/icons/helmeеt.svg" alt="Moto-Daily Logo">
+      <p>© 2024 Moto-Daily. Все права защищены.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-section">
+        <div class="footer-title">О нас</div>
+        <ul>
+          <li><a href="#comp">Компания</a></li>
+          <li><a href="#otz">Отзывы</a></li>
+          <li><a href="#cont">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <div class="footer-title">Услуги</div>
+        <ul>
+          <li><a href="#arend">Аренда мотоциклов</a></li>
+          <li><a href="#ekip">Подбор экипировки</a></li>
+          <li><a href="#sub">Долгосрочная аренда</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <div class="footer-title">Контакты</div>
+        <ul>
+          <li><a href="mailto:info@moto-daily.ru">info@moto-daily.ru</a></li>
+          <li><a href="tel:+79991234567">+7 999 123-45-67</a></li>
+          <li>г. Москва, улица Вавилова, 6</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-social">
+      <div class="footer-title">Мы в соцсетях</div>
+      <div class="social-icons">
+        <a href="#rr"><img src="assets/media/icons/vk.svg" alt="vk"></a>
+        <a href="#rr"><img src="assets/media/icons/youtube.svg" alt="YouTube"></a>
+        <a href="#rr"><img src="assets/media/icons/telegram.svg" alt="Telegram"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-credits">
+    <p>Выполнил: Строй Владислав Александрович, 328-веб</p>
+  </div>
+</footer>
+
+	</body>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(function(block) {
+            block.addEventListener('click', function() {
+                const plusSign = block.querySelector('.plus');
+                plusSign.textContent = plusSign.textContent === '+' ? '-' : '+'; // Переключаем знак
+            });
+        });
+    </script>
+</html>
